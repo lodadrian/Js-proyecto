@@ -13,12 +13,11 @@ class deseo{
 /*-------------FUNCIONES---------------------*/
 
 //Saludar al inicio
-function saludarUsuario(){
+const saludarUsuario = () =>{
     let nombre = prompt("Hola!, bienvenido a la tienda, ¿Cuál es tu nombre?")
-    alert("Bienvenido a la tienda " + nombre)
-    menuPrincipal()
+    Parrafo.innerHTML = nombre;
 }
-setTimeout(saludarUsuario,100)
+
 //Fin del saludo
 
 //Función de que quiere el usuario
